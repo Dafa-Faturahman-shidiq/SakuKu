@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "concurrently \"browser-sync start --server dist --files dist --port 3000\" \"npx tailwindcss -i src/input.css -o dist/assets/css/main.css --watch\"",
-  "build": "npx tailwindcss -i src/input.css -o dist/assets/css/main.css --minify"
-},
+    "dev": "concurrently \"browser-sync start --server dist --files dist --port 3000\" \"npx tailwindcss -i src/input.css -o dist/assets/css/main.css --watch\"",
+    "build": "npx tailwindcss -i src/input.css -o dist/assets/css/main.css --minify"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

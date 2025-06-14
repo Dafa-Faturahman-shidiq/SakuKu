@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tambahkan manual class icon agar dijamin diikutkan dalam build */
+@layer utilities {
+  .i-material-symbols\:home {
+    @apply i-material-symbols:home;
+  }
+}
